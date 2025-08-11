@@ -1,0 +1,184 @@
+
+body {
+  background-color: #d3edea;
+}
+.topnav {
+    background-color: #97b0ad;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Amatic SC", sans-serif;
+  }
+
+
+  .topnav input[type=text] [type=submit] {
+    float: left;
+    padding: 5px;
+    border: none;
+    margin-left: 5px;
+    margin-left: 13px;
+    font-size: 13px;
+  }
+     
+  
+  
+  .topnav a:hover {
+    background-color: #d3edea;
+    color: black;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  .title{
+    text-align: center;
+    flex-grow: 3; 
+    font-size: 35px;
+font-family: "Poiret One", sans-serif;
+color: #000000; 
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+font-family: "Poiret One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+max-width: 100%;
+  margin: auto;
+}
+
+
+.border { 
+  width: 80%; 
+  height: 580px;
+  max-width: 100%; 
+  margin-left:9%;
+  position: relative; }
+
+
+
+.nurse1-img { 
+    
+    position: absolute; 
+  width: 40%; 
+  max-width: 300px; 
+  height: auto; 
+  left: 30%; 
+  transform: translateX(-50%); 
+  bottom: 180px; }
+
+
+  
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 66%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 1 0.5rem ;
+  max-width: 500px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  
+}
+.text-overlay h1 {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  }
+
+.text-overlay p {
+  font-size: 1rem;
+   margin: 0.5rem;
+   line-height: 1;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+ 
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Make the nurse section responsive */
+@media (max-width: 900px) {
+  .border {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .nurse1-img {
+    position: relative;   /* Let it flow under the border image */
+    width: 60%;
+    max-width: 250px;
+    left: 0;
+    transform: none;
+    bottom: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text-overlay {
+    position: relative;   /* Removes absolute lock */
+    top: auto;
+    left: auto;
+    transform: none;
+    max-width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+footer {
+  background-color: #97b0ad;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif; 
+ font-size: 30px;
+}
+
+.description {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  
+}
+
+.description-1 {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  
+}
